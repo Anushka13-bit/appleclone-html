@@ -1,0 +1,266 @@
+.btn:hover {
+    background-color: #005bb5;
+}
+.container{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+            
+    position: fixed;
+    width: 100%;
+  
+    
+}
+.store{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+.shop{
+    color: white;
+}
+.shop:hover{
+    color: white;
+    text-decoration: underline;
+}
+.para{
+    margin-top: 35px;
+    color: white;
+    
+    background-color: #3a3d4d;
+    padding-top: 8px;
+    text-align: center;
+    padding-bottom: 12px;
+    
+}
+
+.hero1 {
+background-image: url('https://www.apple.com/v/iphone-16-pro/d/images/overview/welcome/hero_endframe__b3cjfkquc2s2_xlarge.jpg'); 
+background-size: cover;
+background-position: center;
+height: 85vh;
+border: (0,0,0,0.5);
+border-radius: 15px;
+justify-content: center;
+align-items: top;
+padding-right: 50px;
+text-align: center;
+color: white;
+padding-top: 15px;
+}
+
+.hero-content1 h1 {
+font-size: 3rem;
+margin: 0;
+}
+
+.hero-content1 p {
+font-size: 1.5rem;
+margin: 10px 0 20px;
+
+}
+
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+padding: 50px 20px;
+background-color: #f5f5f7;
+}
+
+.product-item {
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item h2 {
+font-size: 2rem;
+margin: 0;
+}
+
+.product-item p {
+font-size: 1.2rem;
+margin: 10px 0 20px;
+}
+.store{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 20px;
+background-color: #0071e3;
+color: white;
+font-weight: bold;
+text-align: center;
+align-items: bottom;
+justify-content: bottom;
+left: 50px;
+}
+
+.hero2 {
+background-image: url('https://www.apple.com/in/apple-watch-series-10/images/meta/apple-watch-series-10__c6destep56c2_og.png'); 
+background-size: fill;
+background-position: center;
+height: 85vh;
+justify-content: center;
+align-items: top;
+padding-right: 50px;
+text-align: center;
+color: black;
+
+border: rgb(0,0,0,1);
+border-radius: 15px;
+
+
+
+}
+.hero-content2 h1 {
+font-size: 2rem;
+margin-left: 0px;
+padding-bottom: 0px;
+padding-top: 0px;
+
+
+}
+
+.hero-content2 p {
+font-size: 1.5rem;
+padding-top: 0px;
+
+
+}
+
+.hero4 {
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTILs6rZafADSwqm9Mj0ym3XCV3ABZ666nYFw&s');
+background-size: contain;
+background-position: center;
+
+height: 100vh;
+
+justify-content: center;
+align-items: top;
+padding-right: 50px;
+text-align: center;
+color: white;
+padding-top: 50px;
+font: 30px;
+}
+
+.hero3 {
+margin-top: 20px;
+background-image: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbookair-og-202402?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1707414684423');
+background-position: center;
+
+height: 100vh;
+
+justify-content: center;
+align-items: top;
+padding-right: 50px;
+text-align: center;
+color: black;
+padding-top: 30px;
+font: 30px;
+
+}
+
+
+.grid-container {
+    
+    grid-template-columns: repeat(2, 4fr);
+    gap: 20px;
+    
+    display: flex;
+    width: 100vw;  /* Full width */
+    height: 25vw;
+}
+
+.grid-item {
+    overflow: hidden;
+    align-items: flex-end;
+    padding-top: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    flex: 1;
+    aspect-ratio: 1 / 1;
+
+
+    text-align: center;
+    color: white;
+    
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    
+    background-size:contain;
+    background-position: center;
+}
+
+.ipad {
+    margin-top: 20px;
+    background-image: url('https://www.apple.com/v/ipad-pro/ar/images/overview/hero/hero_endframe__sg50vzdd6sqm_large.jpg');
+    height:auto;
+    display: block;
+    
+    
+    
+    object-fit: cover; 
+    border-radius: 10px;
+    
+    
+}  
+.mac{
+margin-top: 20px;
+height:auto;
+display: block;
+
+
+
+object-fit: cover; 
+border-radius: 10px;
+
+
+background-image: url('https://inventstore.in/wp-content/uploads/2023/11/silver-mcp-14.jpeg'); /* Replace with actual image */
+}
+
+.content h1{
+font-size: 2rem;
+margin: 0;
+}
+
+.content p {
+font-size: 1.5rem;
+margin: 10px 0 20px;
+
+}
