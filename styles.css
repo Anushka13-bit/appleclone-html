@@ -17,7 +17,7 @@
     margin-bottom: 10px;
     backdrop-filter: blur(10px);
     padding: 10px 20px;
-            
+    top: 0px;
     position: fixed;
     width: 100%;
   
